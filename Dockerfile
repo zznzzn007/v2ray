@@ -1,5 +1,5 @@
 #FROM alpine:latest
-FROM heroku/heroku:18
+FROM centos:latest
 
 #ENV CONFIG_JSON=none CERT_PEM=none KEY_PEM=none VER=3.35
 
