@@ -14,5 +14,5 @@ mv /v2ray/v2ray-v$VER-linux-64/geoip.dat .
 mv /v2ray/v2ray-v$VER-linux-64/geosite.dat .
 
 chmod +x v2ray v2ctl
-sed -i "s/your_uuid/$UUID/g" config.json
+sed -i "s/b41da9a6-d88b-49b1-852b-5fbe3f14a83b/$UUID/g" config.json
 ./v2ray
